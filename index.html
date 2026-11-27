@@ -833,14 +833,17 @@ body.light .sec-sub,body.light p{text-shadow:0 0 14px rgba(255,255,255,.9),0 0 3
   <div class="admin-box">
     <button class="admin-close" id="admin-close">✕ Close</button>
     <div id="admin-login">
-      <h2>Admin</h2>
-      <p class="admin-note">Enter the admin password to edit site content.</p>
-      <div class="admin-warn">This password is client-side only: it stops casual visitors, but anyone who views the page source can read it. It is not real security. Never reuse an important password here.</div>
-      <input type="password" id="admin-pass" placeholder="Password (default: khairy-admin)">
+      <h2 id="al-title">Admin</h2>
+      <p class="admin-note" id="al-note"></p>
+      <div class="admin-warn">This password only stops casual visitors. It is checked inside the page, so it is not real security. Never reuse an important password here.</div>
+      <input type="password" id="admin-pass" autocomplete="off">
+      <input type="password" id="admin-pass2" autocomplete="off" style="display:none" placeholder="Repeat password">
       <br><button class="btn btn-primary" id="admin-login-btn">Unlock</button>
+      <div><button class="mini-btn" id="admin-forgot" type="button" style="margin-top:10px">Forgot password? Reset</button></div>
       <div class="admin-msg" id="admin-login-msg"></div>
     </div>
     <div id="admin-main" style="display:none">
+      <div class="admin-field" id="pw-change" style="margin-bottom:14px"><button class="mini-btn" id="pw-change-btn" type="button">Change admin password</button></div>
       <h2>Content admin</h2>
       <p class="admin-note">Changes are published through your GitHub repo (content.json) so every visitor sees them. If GitHub is not set up yet, saving falls back to this browser only.</p>
       <details class="gh" id="gh-settings">
@@ -1797,9 +1800,30 @@ function renderCerts(){
   grid.innerHTML=''; (SITE.certs||[]).forEach((c,i)=>grid.appendChild(buildCertCard(c,i)));
 }
 /* ================= admin: open / login ================= */
-const ADMIN_PASS='khairy-admin';
+const LS_PW='mk_portfolio_admin_pw';
+function pwGet(){ try{ return JSON.parse(localStorage.getItem(LS_PW)||'null'); }catch(e){ return null; } }
+const pwHex=b=>Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('');
+async function pwHash(pw,saltHex){
+  const salt=Uint8Array.from(saltHex.match(/../g).map(h=>parseInt(h,16)));
+  const key=await crypto.subtle.importKey('raw',new TextEncoder().encode(pw),'PBKDF2',false,['deriveBits']);
+  return pwHex(await crypto.subtle.deriveBits({name:'PBKDF2',salt:salt,iterations:150000,hash:'SHA-256'},key,256)); }
+async function pwSet(pw){ const salt=pwHex(crypto.getRandomValues(new Uint8Array(16)));
+  localStorage.setItem(LS_PW,JSON.stringify({salt:salt,hash:await pwHash(pw,salt)})); }
+let adminMode='login';
+function loginUi(mode){ adminMode=mode;
+  const set=mode==='setup';
+  document.getElementById('al-title').textContent=set?'Set your admin password':'Admin';
+  document.getElementById('al-note').textContent=set?'First time here. Choose a password (at least 6 characters). It is saved only in this browser, as a salted hash.':'Enter your admin password to edit site content.';
+  document.getElementById('admin-pass').placeholder=set?'New password':'Password';
+  document.getElementById('admin-pass2').style.display=set?'':'none';
+  document.getElementById('admin-login-btn').textContent=set?'Save password':'Unlock';
+  document.getElementById('admin-forgot').style.display=set?'none':'';
+  document.getElementById('admin-pass').value=''; document.getElementById('admin-pass2').value='';
+  document.getElementById('admin-login-msg').textContent=''; }
 const overlay=document.getElementById('admin-overlay');
-function openAdmin(){ overlay.classList.add('open'); document.getElementById('admin-pass').focus(); }
+function openAdmin(){ overlay.classList.add('open');
+  if(document.getElementById('admin-main').style.display!=='block') loginUi(pwGet()?'login':'setup');
+  document.getElementById('admin-pass').focus(); }
 function closeAdmin(){ overlay.classList.remove('open'); }
 document.addEventListener('keydown',e=>{ if(e.ctrlKey&&e.shiftKey&&(e.key==='A'||e.key==='a')){ e.preventDefault(); openAdmin(); } });
 if(location.hash==='#admin') openAdmin();
@@ -1809,10 +1833,28 @@ document.getElementById('admin-close').addEventListener('click',closeAdmin);
 overlay.addEventListener('click',e=>{ if(e.target===overlay) closeAdmin(); });
 document.getElementById('admin-login-btn').addEventListener('click',tryLogin);
 document.getElementById('admin-pass').addEventListener('keydown',e=>{ if(e.key==='Enter') tryLogin(); });
-function tryLogin(){ const v=document.getElementById('admin-pass').value;
-  if(v===ADMIN_PASS){ document.getElementById('admin-login').style.display='none';
-    document.getElementById('admin-main').style.display='block'; buildAdmin(); }
-  else document.getElementById('admin-login-msg').textContent='Wrong password.'; }
+async function tryLogin(){
+  const msg=document.getElementById('admin-login-msg'), v=document.getElementById('admin-pass').value;
+  if(!(window.crypto&&crypto.subtle)){ msg.textContent='This browser cannot protect the password here (open the page over https or in Chrome).'; return; }
+  try{
+    if(adminMode==='setup'){
+      if(v.length<6){ msg.textContent='Use at least 6 characters.'; return; }
+      if(v!==document.getElementById('admin-pass2').value){ msg.textContent='The two passwords do not match.'; return; }
+      await pwSet(v);
+    } else {
+      const r=pwGet(); if(!r||(await pwHash(v,r.salt))!==r.hash){ msg.textContent='Wrong password.'; return; }
+    }
+    document.getElementById('admin-login').style.display='none';
+    document.getElementById('admin-main').style.display='block'; buildAdmin();
+  }catch(e){ msg.textContent='Something went wrong. Try again.'; } }
+document.getElementById('pw-change-btn').addEventListener('click',async()=>{
+  const n=prompt('New admin password (at least 6 characters):'); if(n===null) return;
+  if(n.length<6){ adminMsg('Password too short. Not changed.',true); return; }
+  try{ await pwSet(n); adminMsg('Admin password changed.'); }catch(e){ adminMsg('Could not change the password.',true); } });
+document.getElementById('admin-forgot').addEventListener('click',()=>{
+  if(!confirm('Reset the admin password? This also removes the GitHub token and any unpublished edits saved in this browser. Published content is not affected.')) return;
+  localStorage.removeItem(LS_PW); localStorage.removeItem(LS_GH); localStorage.removeItem(LS_DATA);
+  loginUi('setup'); document.getElementById('admin-login-msg').textContent='Password reset. Choose a new one.'; });
 /* ================= GitHub sync ================= */
 function b64text(s){ return btoa(unescape(encodeURIComponent(s))); }
 function ghHeaders(){ const c=ghCfg(); return {Authorization:'Bearer '+(c.token||''),Accept:'application/vnd.github+json'}; }
