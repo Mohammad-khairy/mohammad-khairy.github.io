@@ -1169,8 +1169,10 @@ img:"",link:"",linkLabel:"",deck:"",deckLink:"",media:[]}
 const LS_DATA='mk_portfolio_data_v2', LS_GH='mk_portfolio_gh', LS_LANG='mk_portfolio_lang';
 let SITE = JSON.parse(JSON.stringify(DEFAULT_DATA));
 let LANG = (new URLSearchParams(location.search).get('lang')) || localStorage.getItem(LS_LANG) || 'en';
-function ghCfg(){ try{return JSON.parse(localStorage.getItem(LS_GH)||'{}')}catch(e){return {}} }
-function rawUrl(){ const c=ghCfg(); if(!c.owner||!c.repo) return null;
+function ghStored(){ try{return JSON.parse(localStorage.getItem(LS_GH)||'{}')}catch(e){return {}} }
+const GH_DEFAULTS={owner:'Mohammad-khairy',repo:'portfolio',branch:'main',path:'content.json'};
+function ghCfg(){ const c=ghStored(); return {owner:c.owner||GH_DEFAULTS.owner,repo:c.repo||GH_DEFAULTS.repo,branch:c.branch||GH_DEFAULTS.branch,path:c.path||GH_DEFAULTS.path,token:c.token||''}; }
+function rawUrl(){ const c=ghStored(); if(!c.owner||!c.repo) return null;
   return 'https://raw.githubusercontent.com/'+c.owner+'/'+c.repo+'/'+(c.branch||'main')+'/'+(c.path||'content.json'); }
 function certPair(v,dv){ if(v==null||v==='') return {en:(dv&&dv.en)||'',ar:(dv&&dv.ar)||''};
   if(typeof v==='string') return {en:v,ar:(dv&&dv.ar)||''};
@@ -1196,7 +1198,7 @@ function normalizeCerts(){
 function applyData(d){ if(d&&Array.isArray(d.projects)){ SITE=d; normalizeCerts(); normalizeSite(); if(!SITE.linkedin) SITE.linkedin=DEFAULT_DATA.linkedin; renderAll();
   try{localStorage.setItem(LS_DATA,JSON.stringify(d))}catch(e){} } }
 let BOOT_DATA=null; try{ const c=localStorage.getItem(LS_DATA); if(c) BOOT_DATA=JSON.parse(c); }catch(e){}
-(function(){ const u=rawUrl(); if(!u) return;
+(function(){ const u=rawUrl()||((location.protocol==='http:'||location.protocol==='https:')?'content.json':null); if(!u) return;
   fetch(u+(u.includes('?')?'&':'?')+'t='+Date.now()).then(r=>r.ok?r.json():null).then(d=>{if(d)applyData(d)}).catch(()=>{});
 })();
 /* ================= language ================= */
