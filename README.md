@@ -1,40 +1,45 @@
-<div align="center">
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Mohammad Khairy - Data Portfolio"/>
+</p>
 
-# Mohammad Khairy
+<p align="center">
+  <a href="https://mohammad-khairy.github.io/portfolio/"><img src="https://img.shields.io/badge/⧉%20OPEN%20THE%20LIVE%20SITE-0D222B?style=for-the-badge&labelColor=2EC4B6" alt="Live site"/></a>
+  <a href="https://www.linkedin.com/in/mohammad-khairy-rashad-148997356"><img src="https://img.shields.io/badge/LinkedIn-0D222B?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a66c2" alt="LinkedIn"/></a>
+  <a href="mailto:mohammadkhairy321@gmail.com"><img src="https://img.shields.io/badge/Email-0D222B?style=for-the-badge&logo=gmail&logoColor=white&labelColor=F2C811" alt="Email"/></a>
+</p>
 
-### Data Analyst · BI Developer
+<p align="center">
+  <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" alt="Power BI"/>
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" alt="SQL"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white" alt="Excel"/>
+  <img src="https://img.shields.io/badge/HTML%2FCSS%2FJS-e34f26?style=flat-square&logo=html5&logoColor=white" alt="HTML/CSS/JS"/>
+</p>
 
-*Turning raw data into decisions that move business.*
+<p align="center">
+  <a href="https://mohammad-khairy.github.io/portfolio/"><img src="screenshot.png" alt="Portfolio preview" width="860"></a>
+</p>
 
-[![Live site](https://img.shields.io/badge/Live%20site-open-3b82f6?style=for-the-badge)](https://mohammad-khairy.github.io/portfolio/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-connect-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohammad-khairy-rashad-148997356)
-[![Email](https://img.shields.io/badge/Email-contact-14b8a6?style=for-the-badge&logo=gmail&logoColor=white)](mailto:mohammadkhairy321@gmail.com)
+## The Site
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML%2FCSS%2FJS-e34f26?style=flat-square&logo=html5&logoColor=white)
+A personal data portfolio: interactive dashboards, data models and ETL pipelines built with Power BI, SQL, Excel and Python, presented as one polished single-page experience.
 
-<a href="https://mohammad-khairy.github.io/portfolio/"><img src="screenshot.png" alt="Portfolio preview" width="860"></a>
+| | |
+|---|---|
+| 🗂️ **Work on display** | Projects, case studies and certificates in folders that open on hover |
+| 🌐 **Two languages** | Full English and Arabic versions, with dark and light mode |
+| 🧊 **3D data visuals** | Animated visuals that scale down gracefully on weaker devices |
+| ✉️ **Contact built in** | LinkedIn and email one click away |
+| 🛠️ **Admin panel** | Site content editable from a built-in admin panel |
 
-</div>
+## Under the Hood
 
-## About
-My personal portfolio. It shows my data analysis work: interactive dashboards, data models and ETL pipelines built with Power BI, SQL, Excel and Python.
+A single self-contained `index.html` — HTML, CSS and JavaScript, no build step — hosted on GitHub Pages.
 
-## What is on the site
-- **Projects, Case Studies and Certificates** in folders that open on hover
-- **English and Arabic**, with dark and light mode
-- **Animated 3D data visuals**, with lighter animation on weaker devices
-- **Contact section** with LinkedIn and email
-- **Built-in admin panel** to edit the site content
-
-## Tech
-A single self-contained HTML file (HTML, CSS and JavaScript, no build step), hosted on GitHub Pages.
-
-## Run it locally
-Open `index.html` in a browser.
+<p align="center">
+  <img src="assets/strip.svg" width="100%" alt=""/>
+</p>
 
 ## License
+
 Copyright (c) 2026 Mohammad Khairy. All rights reserved. See [LICENSE](LICENSE). The code, design and media may not be copied or reused without written permission.
