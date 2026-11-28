@@ -21,7 +21,7 @@
 </div>
 
 ## About
-My personal portfolio. It shows my data analysis work: interactive dashboards, data models and ETL pipelines built with Power BI, SQL, Excel and Python. I am open to online data analysis internships.
+My personal portfolio. It shows my data analysis work: interactive dashboards, data models and ETL pipelines built with Power BI, SQL, Excel and Python.
 
 ## What is on the site
 - **Projects, Case Studies and Certificates** in folders that open on hover
