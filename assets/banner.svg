@@ -37,7 +37,7 @@
     <text x="56" y="188" font-size="40" font-weight="700" fill="#F2C811" opacity="0">understood.
       <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="0.9s" fill="freeze"/>
     </text>
-    <text x="56" y="222" font-size="14.5" fill="#B9D6D2" opacity="0">Interactive dashboards &#183; English and Arabic &#183; Dark and light
+    <text x="56" y="222" font-size="13.5" fill="#B9D6D2" opacity="0">Interactive dashboards &#183; English and Arabic &#183; Dark and light
       <animate attributeName="opacity" from="0" to="1" dur="0.8s" begin="1.3s" fill="freeze"/>
     </text>
   </g>
