@@ -1,492 +1,492 @@
 {
- "linkedin": "https://www.linkedin.com/in/mohammad-khairy-rashad-148997356",
- "photo": "",
- "cvUrl": "",
- "pageTitle": "Mohammad Khairy | Data Analyst",
- "texts": {
-  "en": {},
-  "ar": {}
- },
- "stats": [
-  {
-   "n": 7,
-   "pre": "",
-   "suf": ""
+  "linkedin": "https://www.linkedin.com/in/mohammad-khairy-rashad-148997356",
+  "photo": "",
+  "cvUrl": "",
+  "pageTitle": "Mohammad Khairy | Data Analyst",
+  "texts": {
+    "en": {},
+    "ar": {}
   },
-  {
-   "n": 14,
-   "pre": "$",
-   "suf": "M"
-  },
-  {
-   "n": 7,
-   "pre": "$",
-   "suf": "M+"
-  },
-  {
-   "n": 5000,
-   "pre": "Top ",
-   "suf": ""
-  }
- ],
- "certs": [
-  {
-   "id": "cert-google",
-   "title": {
-    "en": "Google Data Analytics Professional Certificate",
-    "ar": "شهادة Google الاحترافية في تحليل البيانات"
-   },
-   "issuer": {
-    "en": "Google",
-    "ar": "Google"
-   },
-   "date": "",
-   "desc": {
-    "en": "Professional certificate covering the full data analysis process.",
-    "ar": "شهادة احترافية تغطي مراحل تحليل البيانات كاملة."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826335892-final_google_certifictae_.jfif",
-   "link": ""
-  },
-  {
-   "id": "cert-bwai",
-   "title": {
-    "en": "Build with AI — Google & ITI",
-    "ar": "Build with AI — Google & ITI"
-   },
-   "issuer": {
-    "en": "Google & ITI",
-    "ar": "Google & ITI"
-   },
-   "date": "",
-   "desc": {
-    "en": "Recognized among the Top 5,000 Developers in the program.",
-    "ar": "ضمن أفضل 5,000 مطوّر في البرنامج."
-   },
-   "img": "",
-   "link": ""
-  },
-  {
-   "id": "cert-inco",
-   "title": {
-    "en": "Best Technical Project",
-    "ar": "أفضل مشروع تقني"
-   },
-   "issuer": {
-    "en": "INCO Academy",
-    "ar": "INCO Academy"
-   },
-   "date": "",
-   "desc": {
-    "en": "2nd INCO Academy Capstone Project Championship.",
-    "ar": "بطولة INCO Academy الثانية للمشاريع الختامية."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826967904-150726_Best_Technical_Project_page-0001.jpg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-python",
-   "title": {
-    "en": "Introduction to Data Analysis Using Python",
-    "ar": "مقدمة في تحليل البيانات باستخدام Python"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/74-google-intro-data-analysis-python.jpeg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-prepare",
-   "title": {
-    "en": "Prepare Data for Exploration",
-    "ar": "تجهيز البيانات للاستكشاف"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/75-google-prepare-data-exploration.jpeg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-process",
-   "title": {
-    "en": "Process Data from Dirty to Clean",
-    "ar": "معالجة البيانات من الخام إلى النظيفة"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/76-google-process-dirty-to-clean.jpeg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-analyze",
-   "title": {
-    "en": "Analyze Data to Answer Questions",
-    "ar": "تحليل البيانات للإجابة عن الأسئلة"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/72-google-analyze-data.jpeg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-share",
-   "title": {
-    "en": "Share Data Through the Art of Visualization",
-    "ar": "مشاركة البيانات عبر فن التصوير المرئي"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/77-google-share-data-visualization.jpeg",
-   "link": ""
-  },
-  {
-   "id": "cert-g-capstone",
-   "title": {
-    "en": "Google Data Analytics Capstone: Complete a Case Study",
-    "ar": "مشروع Google الختامي لتحليل البيانات: دراسة حالة"
-   },
-   "issuer": {
-    "en": "Google · Coursera",
-    "ar": "Google · Coursera"
-   },
-   "date": "",
-   "desc": {
-    "en": "Course certificate from the Google data-analysis learning path on Coursera.",
-    "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/73-google-capstone-case-study.jpeg",
-   "link": ""
-  }
- ],
- "tagline": {
-  "en": "I'm Mohammad Khairy, a data analyst and Computer Science student. I build interactive dashboards, data models and ETL pipelines with Power BI, SQL, Excel and Python.",
-  "ar": "أنا محمد خيري، محلل بيانات وطالب في علوم الحاسب. ببني لوحات معلومات تفاعلية ونماذج بيانات وخطوط ETL باستخدام Power BI وSQL وإكسل وبايثون."
- },
- "about": {
-  "en": "Motivated Data Analyst certified with the Google Data Analytics Professional Certificate and recognized among the Top 5,000 Developers in the Build with AI program by Google & ITI. Hands-on experience in SQL, Power BI and Excel, with a proven ability to write efficient queries, clean and transform data, and perform complex data modeling. Skilled in extracting actionable insights from large datasets and building interactive dashboards that uncover business trends. Computer Science student at Pharos University in Alexandria, seeking an online data analysis internship.",
-  "ar": "محلل بيانات حاصل على شهادة Google الاحترافية في تحليل البيانات، ومصنَّف ضمن أفضل 5,000 مطوّر في برنامج Build with AI من Google وITI. خبرة عملية في SQL وPower BI وإكسل، وقدرة مثبتة على كتابة استعلامات فعالة وتنظيف البيانات وتحويلها وبناء نماذج بيانات معقدة. ماهر في استخراج رؤى قابلة للتنفيذ من مجموعات بيانات كبيرة وبناء لوحات معلومات تفاعلية تكشف اتجاهات الأعمال. طالب علوم حاسب بجامعة فاروس بالإسكندرية، وببحث عن تدريب تحليل بيانات عن بُعد."
- },
- "projects": [
-  {
-   "id": "olist",
-   "title": {
-    "en": "Olist E-Commerce Analysis",
-    "ar": "تحليل التجارة الإلكترونية Olist"
-   },
-   "tools": [
-    "Python",
-    "SQL (PostgreSQL)",
-    "Power BI"
-   ],
-   "featured": true,
-   "desc": {
-    "en": "End-to-end pipeline: Python extraction into PostgreSQL, optimized Star Schema, and a 4-page Power BI dashboard tracking $14M in sales, customer behavior and logistics KPIs.",
-    "ar": "خط متكامل من البداية للنهاية: استخراج البيانات ببايثون إلى PostgreSQL، وتصميم Star Schema محسّن، ولوحة Power BI من 4 صفحات تتابع مبيعات بقيمة 14 مليون دولار وسلوك العملاء ومؤشرات اللوجستيات."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/39-olist-dash-overview.jpg",
-   "link": "https://github.com/Mohammad-khairy/olist-store-analytics",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
+  "stats": [
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/39-olist-dash-overview.jpg"
+      "n": 7,
+      "pre": "",
+      "suf": ""
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/40-olist-dash-2.jpg"
+      "n": 14,
+      "pre": "$",
+      "suf": "M"
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/41-olist-dash-3.jpg"
+      "n": 7,
+      "pre": "$",
+      "suf": "M+"
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/42-olist-dash-4.jpg"
+      "n": 5000,
+      "pre": "Top ",
+      "suf": ""
     }
-   ],
-   "caseFile": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/37-olist-case-study.pdf"
-  },
-  {
-   "id": "shoppe",
-   "title": {
-    "en": "Shoppe Express E-Commerce Analysis",
-    "ar": "تحليل Shoppe Express للتجارة الإلكترونية"
-   },
-   "tools": [
-    "Power BI",
-    "Power Query",
-    "DAX"
-   ],
-   "featured": true,
-   "desc": {
-    "en": "Comprehensive e-commerce analytics dashboard with Power Query ETL, an optimized Star Schema, and advanced DAX measures for store performance tracking.",
-    "ar": "لوحة تحليلات شاملة للتجارة الإلكترونية مع عمليات ETL بـ Power Query، وStar Schema محسّن، ومقاييس DAX متقدمة لمتابعة أداء المتجر."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/52-shopee-page-overview.jpg",
-   "link": "https://github.com/Mohammad-khairy/shopee-xpress-logistics",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
+  ],
+  "certs": [
     {
-     "type": "video",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/50-shopee-demo.mp4",
-     "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/51-shopee-cover.jpg"
+      "id": "cert-google",
+      "title": {
+        "en": "Google Data Analytics Professional Certificate",
+        "ar": "شهادة Google الاحترافية في تحليل البيانات"
+      },
+      "issuer": {
+        "en": "Google",
+        "ar": "Google"
+      },
+      "date": "",
+      "desc": {
+        "en": "Professional certificate covering the full data analysis process.",
+        "ar": "شهادة احترافية تغطي مراحل تحليل البيانات كاملة."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826335892-final_google_certifictae_.jfif",
+      "link": ""
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/52-shopee-page-overview.jpg"
+      "id": "cert-bwai",
+      "title": {
+        "en": "Build with AI — Google & ITI",
+        "ar": "Build with AI — Google & ITI"
+      },
+      "issuer": {
+        "en": "Google & ITI",
+        "ar": "Google & ITI"
+      },
+      "date": "",
+      "desc": {
+        "en": "Recognized among the Top 5,000 Developers in the program.",
+        "ar": "ضمن أفضل 5,000 مطوّر في البرنامج."
+      },
+      "img": "",
+      "link": ""
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/53-shopee-page-products.jpg"
+      "id": "cert-inco",
+      "title": {
+        "en": "Best Technical Project",
+        "ar": "أفضل مشروع تقني"
+      },
+      "issuer": {
+        "en": "INCO Academy",
+        "ar": "INCO Academy"
+      },
+      "date": "",
+      "desc": {
+        "en": "2nd INCO Academy Capstone Project Championship.",
+        "ar": "بطولة INCO Academy الثانية للمشاريع الختامية."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826967904-150726_Best_Technical_Project_page-0001.jpg",
+      "link": ""
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/54-shopee-page-customers.jpg"
+      "id": "cert-g-python",
+      "title": {
+        "en": "Introduction to Data Analysis Using Python",
+        "ar": "مقدمة في تحليل البيانات باستخدام Python"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/74-google-intro-data-analysis-python.jpeg",
+      "link": ""
+    },
+    {
+      "id": "cert-g-prepare",
+      "title": {
+        "en": "Prepare Data for Exploration",
+        "ar": "تجهيز البيانات للاستكشاف"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/75-google-prepare-data-exploration.jpeg",
+      "link": ""
+    },
+    {
+      "id": "cert-g-process",
+      "title": {
+        "en": "Process Data from Dirty to Clean",
+        "ar": "معالجة البيانات من الخام إلى النظيفة"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/76-google-process-dirty-to-clean.jpeg",
+      "link": ""
+    },
+    {
+      "id": "cert-g-analyze",
+      "title": {
+        "en": "Analyze Data to Answer Questions",
+        "ar": "تحليل البيانات للإجابة عن الأسئلة"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/72-google-analyze-data.jpeg",
+      "link": ""
+    },
+    {
+      "id": "cert-g-share",
+      "title": {
+        "en": "Share Data Through the Art of Visualization",
+        "ar": "مشاركة البيانات عبر فن التصوير المرئي"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/77-google-share-data-visualization.jpeg",
+      "link": ""
+    },
+    {
+      "id": "cert-g-capstone",
+      "title": {
+        "en": "Google Data Analytics Capstone: Complete a Case Study",
+        "ar": "مشروع Google الختامي لتحليل البيانات: دراسة حالة"
+      },
+      "issuer": {
+        "en": "Google · Coursera",
+        "ar": "Google · Coursera"
+      },
+      "date": "",
+      "desc": {
+        "en": "Course certificate from the Google data-analysis learning path on Coursera.",
+        "ar": "شهادة مقرر من مسار Google لتحليل البيانات على Coursera."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/73-google-capstone-case-study.jpeg",
+      "link": ""
     }
-   ],
-   "caseFile": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/38-inco-final-project.pdf"
+  ],
+  "tagline": {
+    "en": "I'm Mohammad Khairy, a data analyst and Computer Science student. I build interactive dashboards, data models and ETL pipelines with Power BI, SQL, Excel and Python.",
+    "ar": "أنا محمد خيري، محلل بيانات وطالب في علوم الحاسب. ببني لوحات معلومات تفاعلية ونماذج بيانات وخطوط ETL باستخدام Power BI وSQL وإكسل وبايثون."
   },
-  {
-   "id": "aura",
-   "title": {
-    "en": "AURA APPAREL E-Commerce Analysis",
-    "ar": "تحليل AURA APPAREL للتجارة الإلكترونية"
-   },
-   "tools": [
-    "Power BI",
-    "Power Query",
-    "DAX"
-   ],
-   "featured": false,
-   "desc": {
-    "en": "Multi-page dashboard visualizing sales performance and logistics: $7M+ revenue, product SKUs, return rates and shipping, on a high-performance Star Schema.",
-    "ar": "لوحة متعددة الصفحات لعرض أداء المبيعات واللوجستيات: إيرادات تتجاوز 7 ملايين دولار، ووحدات SKU، ومعدلات الإرجاع والشحن، على Star Schema عالي الأداء."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/45-aura-page-overview.jpg",
-   "link": "https://github.com/Mohammad-khairy/aura-ecommerce-dashboard",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
-    {
-     "type": "video",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/43-aura-demo.mp4",
-     "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/44-aura-cover.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/45-aura-page-overview.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/46-aura-page-products.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/47-aura-page-retailers.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/48-aura-page-logistics.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/49-aura-page-returns.jpg"
-    }
-   ]
+  "about": {
+    "en": "Motivated Data Analyst certified with the Google Data Analytics Professional Certificate and recognized among the Top 5,000 Developers in the Build with AI program by Google & ITI. Hands-on experience in SQL, Power BI and Excel, with a proven ability to write efficient queries, clean and transform data, and perform complex data modeling. Skilled in extracting actionable insights from large datasets and building interactive dashboards that uncover business trends. Computer Science student at Pharos University in Alexandria, seeking an online data analysis internship.",
+    "ar": "محلل بيانات حاصل على شهادة Google الاحترافية في تحليل البيانات، ومصنَّف ضمن أفضل 5,000 مطوّر في برنامج Build with AI من Google وITI. خبرة عملية في SQL وPower BI وإكسل، وقدرة مثبتة على كتابة استعلامات فعالة وتنظيف البيانات وتحويلها وبناء نماذج بيانات معقدة. ماهر في استخراج رؤى قابلة للتنفيذ من مجموعات بيانات كبيرة وبناء لوحات معلومات تفاعلية تكشف اتجاهات الأعمال. طالب علوم حاسب بجامعة فاروس بالإسكندرية، وببحث عن تدريب تحليل بيانات عن بُعد."
   },
-  {
-   "id": "adidas",
-   "title": {
-    "en": "Adidas US Sales Analysis",
-    "ar": "تحليل مبيعات Adidas الأمريكية"
-   },
-   "tools": [
-    "Power BI",
-    "DAX",
-    "Power Query"
-   ],
-   "featured": false,
-   "desc": {
-    "en": "3-page interactive dashboard of US sales performance: revenue and profit KPIs, top-performing products and regional sales opportunities.",
-    "ar": "لوحة تفاعلية من 3 صفحات لأداء المبيعات الأمريكية: مؤشرات الإيرادات والأرباح، وأفضل المنتجات أداءً وفرص المبيعات الإقليمية."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/57-adidas-page-1.jpg",
-   "link": "https://github.com/Mohammad-khairy/adidas-us-sales-powerbi",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
+  "projects": [
     {
-     "type": "video",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/55-adidas-demo.mp4",
-     "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/56-adidas-cover.jpg"
+      "id": "olist",
+      "title": {
+        "en": "Olist E-Commerce Analysis",
+        "ar": "تحليل التجارة الإلكترونية Olist"
+      },
+      "tools": [
+        "Python",
+        "SQL (PostgreSQL)",
+        "Power BI"
+      ],
+      "featured": true,
+      "desc": {
+        "en": "End-to-end pipeline: Python extraction into PostgreSQL, optimized Star Schema, and a 4-page Power BI dashboard tracking $14M in sales, customer behavior and logistics KPIs.",
+        "ar": "خط متكامل من البداية للنهاية: استخراج البيانات ببايثون إلى PostgreSQL، وتصميم Star Schema محسّن، ولوحة Power BI من 4 صفحات تتابع مبيعات بقيمة 14 مليون دولار وسلوك العملاء ومؤشرات اللوجستيات."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/39-olist-dash-overview.jpg",
+      "link": "https://github.com/Mohammad-khairy/olist-store-analytics",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/39-olist-dash-overview.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/40-olist-dash-2.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/41-olist-dash-3.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/42-olist-dash-4.jpg"
+        }
+      ],
+      "caseFile": "https://mohammad-khairy.github.io/portfolio/media/37-olist-case-study.pdf"
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/57-adidas-page-1.jpg"
+      "id": "shoppe",
+      "title": {
+        "en": "Shoppe Express E-Commerce Analysis",
+        "ar": "تحليل Shoppe Express للتجارة الإلكترونية"
+      },
+      "tools": [
+        "Power BI",
+        "Power Query",
+        "DAX"
+      ],
+      "featured": true,
+      "desc": {
+        "en": "Comprehensive e-commerce analytics dashboard with Power Query ETL, an optimized Star Schema, and advanced DAX measures for store performance tracking.",
+        "ar": "لوحة تحليلات شاملة للتجارة الإلكترونية مع عمليات ETL بـ Power Query، وStar Schema محسّن، ومقاييس DAX متقدمة لمتابعة أداء المتجر."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/52-shopee-page-overview.jpg",
+      "link": "https://github.com/Mohammad-khairy/shopee-xpress-logistics",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://mohammad-khairy.github.io/portfolio/media/50-shopee-demo.mp4",
+          "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/51-shopee-cover.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/52-shopee-page-overview.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/53-shopee-page-products.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/54-shopee-page-customers.jpg"
+        }
+      ],
+      "caseFile": "https://mohammad-khairy.github.io/portfolio/media/38-inco-final-project.pdf"
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/58-adidas-page-2.jpg"
+      "id": "aura",
+      "title": {
+        "en": "AURA APPAREL E-Commerce Analysis",
+        "ar": "تحليل AURA APPAREL للتجارة الإلكترونية"
+      },
+      "tools": [
+        "Power BI",
+        "Power Query",
+        "DAX"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Multi-page dashboard visualizing sales performance and logistics: $7M+ revenue, product SKUs, return rates and shipping, on a high-performance Star Schema.",
+        "ar": "لوحة متعددة الصفحات لعرض أداء المبيعات واللوجستيات: إيرادات تتجاوز 7 ملايين دولار، ووحدات SKU، ومعدلات الإرجاع والشحن، على Star Schema عالي الأداء."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/45-aura-page-overview.jpg",
+      "link": "https://github.com/Mohammad-khairy/aura-ecommerce-dashboard",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://mohammad-khairy.github.io/portfolio/media/43-aura-demo.mp4",
+          "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/44-aura-cover.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/45-aura-page-overview.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/46-aura-page-products.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/47-aura-page-retailers.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/48-aura-page-logistics.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/49-aura-page-returns.jpg"
+        }
+      ]
     },
     {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/59-adidas-page-3.jpg"
+      "id": "adidas",
+      "title": {
+        "en": "Adidas US Sales Analysis",
+        "ar": "تحليل مبيعات Adidas الأمريكية"
+      },
+      "tools": [
+        "Power BI",
+        "DAX",
+        "Power Query"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "3-page interactive dashboard of US sales performance: revenue and profit KPIs, top-performing products and regional sales opportunities.",
+        "ar": "لوحة تفاعلية من 3 صفحات لأداء المبيعات الأمريكية: مؤشرات الإيرادات والأرباح، وأفضل المنتجات أداءً وفرص المبيعات الإقليمية."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/57-adidas-page-1.jpg",
+      "link": "https://github.com/Mohammad-khairy/adidas-us-sales-powerbi",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://mohammad-khairy.github.io/portfolio/media/55-adidas-demo.mp4",
+          "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/56-adidas-cover.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/57-adidas-page-1.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/58-adidas-page-2.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/59-adidas-page-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "title": {
+        "en": "Coffee Shop Sales Analysis",
+        "ar": "تحليل مبيعات مقهى"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Pivot Tables"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Sales analysis system identifying peak hours and top-selling products, with dynamic Pivot Table and Slicer reports.",
+        "ar": "نظام تحليل مبيعات يحدد ساعات الذروة وأكثر المنتجات مبيعًا، بتقارير ديناميكية من الجداول المحورية والمقسمات."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/62-coffee-page-store.jpg",
+      "link": "https://github.com/Mohammad-khairy/coffee-shop-excel-dashboard",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://mohammad-khairy.github.io/portfolio/media/60-coffee-demo.mp4",
+          "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/61-coffee-cover.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/62-coffee-page-store.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/63-coffee-page-revenue.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/64-coffee-page-customer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "salary",
+      "title": {
+        "en": "Salary Dashboard Analysis",
+        "ar": "لوحة تحليل الرواتب"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Pivot Tables",
+        "Charts"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Interactive salary dashboard analyzing income distribution and trends across diverse categories.",
+        "ar": "لوحة رواتب تفاعلية تحلل توزيع الدخل واتجاهاته عبر فئات متنوعة."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/67-salary-page-dashboard.jpg",
+      "link": "https://github.com/Mohammad-khairy/salary-compensation-excel-dashboard",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://mohammad-khairy.github.io/portfolio/media/65-salary-demo.mp4",
+          "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/66-salary-cover.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/67-salary-page-dashboard.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/68-salary-slice-hr.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/69-salary-slice-it.jpg"
+        }
+      ]
+    },
+    {
+      "id": "hr",
+      "title": {
+        "en": "Human Capital Analysis",
+        "ar": "تحليل رأس المال البشري"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Advanced Formulas"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "HR dashboard of workforce data: employee distribution, education levels and salary structures, with KPIs such as total salary, average experience and average age.",
+        "ar": "لوحة موارد بشرية لبيانات القوى العاملة: توزيع الموظفين والمستويات التعليمية وهياكل الرواتب، بمؤشرات مثل إجمالي الرواتب ومتوسط الخبرة والعمر."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/70-hr-dash-1.jpg",
+      "link": "https://github.com/Mohammad-khairy/human-capital-excel-dashboard",
+      "linkLabel": "GitHub repo ↗",
+      "deck": "",
+      "deckLink": "",
+      "media": [
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/70-hr-dash-1.jpg"
+        },
+        {
+          "type": "image",
+          "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/71-hr-dash-2.jpg"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "coffee",
-   "title": {
-    "en": "Coffee Shop Sales Analysis",
-    "ar": "تحليل مبيعات مقهى"
-   },
-   "tools": [
-    "Microsoft Excel",
-    "Pivot Tables"
-   ],
-   "featured": false,
-   "desc": {
-    "en": "Sales analysis system identifying peak hours and top-selling products, with dynamic Pivot Table and Slicer reports.",
-    "ar": "نظام تحليل مبيعات يحدد ساعات الذروة وأكثر المنتجات مبيعًا، بتقارير ديناميكية من الجداول المحورية والمقسمات."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/62-coffee-page-store.jpg",
-   "link": "https://github.com/Mohammad-khairy/coffee-shop-excel-dashboard",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
-    {
-     "type": "video",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/60-coffee-demo.mp4",
-     "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/61-coffee-cover.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/62-coffee-page-store.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/63-coffee-page-revenue.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/64-coffee-page-customer.jpg"
-    }
-   ]
-  },
-  {
-   "id": "salary",
-   "title": {
-    "en": "Salary Dashboard Analysis",
-    "ar": "لوحة تحليل الرواتب"
-   },
-   "tools": [
-    "Microsoft Excel",
-    "Pivot Tables",
-    "Charts"
-   ],
-   "featured": false,
-   "desc": {
-    "en": "Interactive salary dashboard analyzing income distribution and trends across diverse categories.",
-    "ar": "لوحة رواتب تفاعلية تحلل توزيع الدخل واتجاهاته عبر فئات متنوعة."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/67-salary-page-dashboard.jpg",
-   "link": "https://github.com/Mohammad-khairy/salary-compensation-excel-dashboard",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
-    {
-     "type": "video",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/65-salary-demo.mp4",
-     "thumb": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/66-salary-cover.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/67-salary-page-dashboard.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/68-salary-slice-hr.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/69-salary-slice-it.jpg"
-    }
-   ]
-  },
-  {
-   "id": "hr",
-   "title": {
-    "en": "Human Capital Analysis",
-    "ar": "تحليل رأس المال البشري"
-   },
-   "tools": [
-    "Microsoft Excel",
-    "Advanced Formulas"
-   ],
-   "featured": false,
-   "desc": {
-    "en": "HR dashboard of workforce data: employee distribution, education levels and salary structures, with KPIs such as total salary, average experience and average age.",
-    "ar": "لوحة موارد بشرية لبيانات القوى العاملة: توزيع الموظفين والمستويات التعليمية وهياكل الرواتب، بمؤشرات مثل إجمالي الرواتب ومتوسط الخبرة والعمر."
-   },
-   "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/70-hr-dash-1.jpg",
-   "link": "https://github.com/Mohammad-khairy/human-capital-excel-dashboard",
-   "linkLabel": "GitHub repo ↗",
-   "deck": "",
-   "deckLink": "",
-   "media": [
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/70-hr-dash-1.jpg"
-    },
-    {
-     "type": "image",
-     "url": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/71-hr-dash-2.jpg"
-    }
-   ]
-  }
- ],
- "photoCutout": false
+  ],
+  "photoCutout": false
 }
