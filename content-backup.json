@@ -1,0 +1,258 @@
+{
+  "linkedin": "https://www.linkedin.com/in/mohammad-khairy-rashad-148997356",
+  "photo": "",
+  "cvUrl": "",
+  "pageTitle": "Mohammad Khairy | Data Analyst",
+  "texts": {
+    "en": {},
+    "ar": {}
+  },
+  "stats": [
+    {
+      "n": 7,
+      "pre": "",
+      "suf": ""
+    },
+    {
+      "n": 14,
+      "pre": "$",
+      "suf": "M"
+    },
+    {
+      "n": 7,
+      "pre": "$",
+      "suf": "M+"
+    },
+    {
+      "n": 5000,
+      "pre": "Top ",
+      "suf": ""
+    }
+  ],
+  "certs": [
+    {
+      "id": "cert-google",
+      "title": {
+        "en": "Google Data Analytics Professional Certificate",
+        "ar": "شهادة Google الاحترافية في تحليل البيانات"
+      },
+      "issuer": {
+        "en": "Google",
+        "ar": "Google"
+      },
+      "date": "",
+      "desc": {
+        "en": "Professional certificate covering the full data analysis process.",
+        "ar": "شهادة احترافية تغطي مراحل تحليل البيانات كاملة."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826335892-final_google_certifictae_.jfif",
+      "link": ""
+    },
+    {
+      "id": "cert-bwai",
+      "title": {
+        "en": "Build with AI — Google & ITI",
+        "ar": "Build with AI — Google & ITI"
+      },
+      "issuer": {
+        "en": "Google & ITI",
+        "ar": "Google & ITI"
+      },
+      "date": "",
+      "desc": {
+        "en": "Recognized among the Top 5,000 Developers in the program.",
+        "ar": "ضمن أفضل 5,000 مطوّر في البرنامج."
+      },
+      "img": "",
+      "link": ""
+    },
+    {
+      "id": "cert-inco",
+      "title": {
+        "en": "Best Technical Project",
+        "ar": "أفضل مشروع تقني"
+      },
+      "issuer": {
+        "en": "INCO Academy",
+        "ar": "INCO Academy"
+      },
+      "date": "",
+      "desc": {
+        "en": "2nd INCO Academy Capstone Project Championship.",
+        "ar": "بطولة INCO Academy الثانية للمشاريع الختامية."
+      },
+      "img": "https://raw.githubusercontent.com/Mohammad-khairy/portfolio/main/media/1795826967904-150726_Best_Technical_Project_page-0001.jpg",
+      "link": ""
+    }
+  ],
+  "tagline": {
+    "en": "I'm Mohammad Khairy, a data analyst and Computer Science student. I build interactive dashboards, data models and ETL pipelines with Power BI, SQL, Excel and Python.",
+    "ar": "أنا محمد خيري، محلل بيانات وطالب في علوم الحاسب. ببني لوحات معلومات تفاعلية ونماذج بيانات وخطوط ETL باستخدام Power BI وSQL وإكسل وبايثون."
+  },
+  "about": {
+    "en": "Motivated Data Analyst certified with the Google Data Analytics Professional Certificate and recognized among the Top 5,000 Developers in the Build with AI program by Google & ITI. Hands-on experience in SQL, Power BI and Excel, with a proven ability to write efficient queries, clean and transform data, and perform complex data modeling. Skilled in extracting actionable insights from large datasets and building interactive dashboards that uncover business trends. Computer Science student at Pharos University in Alexandria, seeking an online data analysis internship.",
+    "ar": "محلل بيانات حاصل على شهادة Google الاحترافية في تحليل البيانات، ومصنَّف ضمن أفضل 5,000 مطوّر في برنامج Build with AI من Google وITI. خبرة عملية في SQL وPower BI وإكسل، وقدرة مثبتة على كتابة استعلامات فعالة وتنظيف البيانات وتحويلها وبناء نماذج بيانات معقدة. ماهر في استخراج رؤى قابلة للتنفيذ من مجموعات بيانات كبيرة وبناء لوحات معلومات تفاعلية تكشف اتجاهات الأعمال. طالب علوم حاسب بجامعة فاروس بالإسكندرية، وببحث عن تدريب تحليل بيانات عن بُعد."
+  },
+  "projects": [
+    {
+      "id": "olist",
+      "title": {
+        "en": "Olist E-Commerce Analysis",
+        "ar": "تحليل التجارة الإلكترونية Olist"
+      },
+      "tools": [
+        "Python",
+        "SQL (PostgreSQL)",
+        "Power BI"
+      ],
+      "featured": true,
+      "desc": {
+        "en": "End-to-end pipeline: Python extraction into PostgreSQL, optimized Star Schema, and a 4-page Power BI dashboard tracking $14M in sales, customer behavior and logistics KPIs.",
+        "ar": "خط متكامل من البداية للنهاية: استخراج البيانات ببايثون إلى PostgreSQL، وتصميم Star Schema محسّن، ولوحة Power BI من 4 صفحات تتابع مبيعات بقيمة 14 مليون دولار وسلوك العملاء ومؤشرات اللوجستيات."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "shoppe",
+      "title": {
+        "en": "Shoppe Express E-Commerce Analysis",
+        "ar": "تحليل Shoppe Express للتجارة الإلكترونية"
+      },
+      "tools": [
+        "Power BI",
+        "Power Query",
+        "DAX"
+      ],
+      "featured": true,
+      "desc": {
+        "en": "Comprehensive e-commerce analytics dashboard with Power Query ETL, an optimized Star Schema, and advanced DAX measures for store performance tracking.",
+        "ar": "لوحة تحليلات شاملة للتجارة الإلكترونية مع عمليات ETL بـ Power Query، وStar Schema محسّن، ومقاييس DAX متقدمة لمتابعة أداء المتجر."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "aura",
+      "title": {
+        "en": "AURA APPAREL E-Commerce Analysis",
+        "ar": "تحليل AURA APPAREL للتجارة الإلكترونية"
+      },
+      "tools": [
+        "Power BI",
+        "Power Query",
+        "DAX"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Multi-page dashboard visualizing sales performance and logistics: $7M+ revenue, product SKUs, return rates and shipping, on a high-performance Star Schema.",
+        "ar": "لوحة متعددة الصفحات لعرض أداء المبيعات واللوجستيات: إيرادات تتجاوز 7 ملايين دولار، ووحدات SKU، ومعدلات الإرجاع والشحن، على Star Schema عالي الأداء."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "adidas",
+      "title": {
+        "en": "Adidas US Sales Analysis",
+        "ar": "تحليل مبيعات Adidas الأمريكية"
+      },
+      "tools": [
+        "Power BI",
+        "DAX",
+        "Power Query"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "3-page interactive dashboard of US sales performance: revenue and profit KPIs, top-performing products and regional sales opportunities.",
+        "ar": "لوحة تفاعلية من 3 صفحات لأداء المبيعات الأمريكية: مؤشرات الإيرادات والأرباح، وأفضل المنتجات أداءً وفرص المبيعات الإقليمية."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "coffee",
+      "title": {
+        "en": "Coffee Shop Sales Analysis",
+        "ar": "تحليل مبيعات مقهى"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Pivot Tables"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Sales analysis system identifying peak hours and top-selling products, with dynamic Pivot Table and Slicer reports.",
+        "ar": "نظام تحليل مبيعات يحدد ساعات الذروة وأكثر المنتجات مبيعًا، بتقارير ديناميكية من الجداول المحورية والمقسمات."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "salary",
+      "title": {
+        "en": "Salary Dashboard Analysis",
+        "ar": "لوحة تحليل الرواتب"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Pivot Tables",
+        "Charts"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "Interactive salary dashboard analyzing income distribution and trends across diverse categories.",
+        "ar": "لوحة رواتب تفاعلية تحلل توزيع الدخل واتجاهاته عبر فئات متنوعة."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    },
+    {
+      "id": "hr",
+      "title": {
+        "en": "Human Capital Analysis",
+        "ar": "تحليل رأس المال البشري"
+      },
+      "tools": [
+        "Microsoft Excel",
+        "Advanced Formulas"
+      ],
+      "featured": false,
+      "desc": {
+        "en": "HR dashboard of workforce data: employee distribution, education levels and salary structures, with KPIs such as total salary, average experience and average age.",
+        "ar": "لوحة موارد بشرية لبيانات القوى العاملة: توزيع الموظفين والمستويات التعليمية وهياكل الرواتب، بمؤشرات مثل إجمالي الرواتب ومتوسط الخبرة والعمر."
+      },
+      "img": "",
+      "link": "",
+      "linkLabel": "",
+      "deck": "",
+      "deckLink": "",
+      "media": []
+    }
+  ],
+  "photoCutout": false
+}
